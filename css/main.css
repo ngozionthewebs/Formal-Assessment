@@ -11,6 +11,7 @@ nav{
     color: white;
     margin-top: 20px;
     padding-left: 30px;
+    font-weight: 700;
 }
 
 nav ul{
@@ -20,9 +21,126 @@ nav ul{
 .nav-con{
     margin-left:850px;
     margin-top: -50px;
+    font-weight: 300;
 }
 
 nav li{
     float: right;
     padding-left: 30px;
+}
+.overlay{
+    width: 700px;
+    height: 470px;
+    background-color: rgba(0, 0, 0, 0,5);
+    border-radius: 10px;
+    
+    
+}
+
+
+.text{
+    width: 700px;
+    height: 470px;
+    background-image: url(../asssets/images/rocket.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+    margin-left: 60px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-top: 55px;
+    padding-left: 50px;
+    font-weight: bold;
+
+}
+
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: white;
+}
+
+.text h2{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.text p{
+    padding-top: 30px;
+    font-size: 20px;
+    padding-right:7px ;
+    font-weight: 300;
+}
+
+.btn{
+    width: 270px;
+    height: 40px;
+    border: 2px white solid;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.box{
+    padding-left: 50px;
+    padding-top: 70px;
+}
+ .box h1{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ .box p{
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+ }
+form{
+    width: 570px;
+    height: 470px;
+    padding-left: 90px;
+}
+
+.form-input{
+    width: 110%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+button{
+    width: 110%;
+    height: 50px;
+    background-color: #2b2b2b;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #2b2b2b;
+    margin-top: 70px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-style: italic;
 }
